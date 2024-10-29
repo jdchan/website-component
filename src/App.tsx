@@ -122,10 +122,11 @@ function App() {
               
             </div>
           </div>
-
+          <a href="https://veraty.ai/contact-page-2" target="_blank" rel="noopener noreferrer">
           <button className="mt-8 w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 px-4 rounded-lg font-semibold hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
             Try for Free
           </button>
+          </a>
         </div>
       </div> 
 
@@ -159,13 +160,7 @@ function App() {
               <Check className="w-5 h-5 text-green-500" />
               <span>Unlimited Team Members Included</span>
             </div>
-            <div className="flex items-center gap-3">
-              <span><i>+ Access to Discounted Cyber and Legal Advice with our Partner Firms</i></span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Check className="w-5 h-5 text-green-500" />
-              <span>Fixed Fee "Pay for What You Need" Pricing</span>
-            </div>
+            
           </div>
 
           <div className="mt-8 space-y-4">
@@ -225,10 +220,11 @@ function App() {
               
             </div>
           </div>
-
+          <a href="https://veraty.ai/contact-page-2" target="_blank" rel="noopener noreferrer">
           <button className="mt-8 w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 px-4 rounded-lg font-semibold hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
             Try for Free
           </button>
+          </a>
         </div>
       </div>
     </div>
