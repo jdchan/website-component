@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Calculator, Check, Sparkles } from 'lucide-react';
+import { Calculator, Check, Plus, Sparkles } from 'lucide-react';
 
 function App() {
   const [wordCount, setWordCount] = useState<number>(1000);
@@ -25,7 +25,7 @@ function App() {
             <h2 className="text-2xl font-bold">Starter</h2>
             <Sparkles className="w-8 h-8" />
           </div>
-          <p className="mt-2 opacity-90">Best suited for businesses without in-house expertise</p>
+          <p className="mt-2 opacity-90">Best suited for businesses without in-house teams, looking for affordable and flexible advice</p>
           <div className="mt-6">
             <span className="text-4xl font-bold">A${(Number(subscription))}</span>
             <span className="text-lg ml-2">per month</span>
@@ -34,28 +34,34 @@ function App() {
         
         <div className="p-8">
           <div className="space-y-4">
+          <div className="flex items-center gap-3">
+          <span><i>Our powerful AI co-pilot for self-service cyber and legal advice</i></span>
+            </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-green-500" />
-              <span>No Lock In (Pay as you Go)
+              <span>No Lock In
               </span>
             </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-green-500" />
-              <span>Discounted Cyber and Legal Advice with our Partner Firms</span>
+              <span>Unlimited templates and AI queries</span>
             </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-green-500" />
               <span>Up to 50 Team Members Included</span>
             </div>
             <div className="flex items-center gap-3">
+              <span><i>+ Discounted Cyber and Legal Advice with our Partner Firms</i></span>
+            </div>
+            <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-green-500" />
-              <span>Unlimited templates and AI reviews</span>
+              <span>Fixed Fee "Pay for What You Need" Pricing</span>
             </div>
           </div>
 
           <div className="mt-8 space-y-4">
             <label className="block text-sm font-medium text-gray-700">
-              Calculate how much you could save on advice
+              Calculate how much you could save through Discounted Advice
             </label>
             <div className="relative mt-2 rounded-md shadow-sm">
               <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
