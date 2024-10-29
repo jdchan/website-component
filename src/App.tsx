@@ -41,7 +41,7 @@ function App() {
             </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-green-500" />
-              <span>Discounted Cyber and Legal Advice</span>
+              <span>Discounted Cyber and Legal Advice with our Partner Firms</span>
             </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-green-500" />
@@ -49,7 +49,7 @@ function App() {
             </div>
             <div className="flex items-center gap-3">
               <Check className="w-5 h-5 text-green-500" />
-              <span>Try for free</span>
+              <span>Unlimited templates and AI reviews</span>
             </div>
           </div>
 
@@ -57,22 +57,6 @@ function App() {
             <label className="block text-sm font-medium text-gray-700">
               Calculate how much you could save on advice
             </label>
-            <div className="relative mt-2 rounded-md shadow-sm">
-              <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                <Calculator className="h-5 w-5 text-gray-400" />
-              </div>
-              <input
-                type="number"
-                min="0"
-                value={wordCount}
-                onChange={(e) => setWordCount(Math.max(0, parseInt(e.target.value) || 0))}
-                className="block w-full rounded-md border-0 py-3 pl-10 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                placeholder="Enter average word count of each document for review"
-              />
-              <div className="absolute inset-y-0 right-0 flex items-center pr-3">
-                <span className="text-gray-500 sm:text-sm">words in average doc/question</span>
-              </div>
-            </div>
             <div className="relative mt-2 rounded-md shadow-sm">
               <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                 <Calculator className="h-5 w-5 text-gray-400" />
@@ -89,6 +73,23 @@ function App() {
                 <span className="text-gray-500 sm:text-sm">docs / questions per month</span>
               </div>
             </div>
+            <div className="relative mt-2 rounded-md shadow-sm">
+              <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                <Calculator className="h-5 w-5 text-gray-400" />
+              </div>
+              <input
+                type="number"
+                min="0"
+                value={wordCount}
+                onChange={(e) => setWordCount(Math.max(0, parseInt(e.target.value) || 0))}
+                className="block w-full rounded-md border-0 py-3 pl-10 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                placeholder="Enter average word count of each document for review"
+              />
+              <div className="absolute inset-y-0 right-0 flex items-center pr-3">
+                <span className="text-gray-500 sm:text-sm">words in average doc/question</span>
+              </div>
+            </div>
+            
 
             <div className="bg-gray-50 rounded-lg p-4 space-y-2">
               <div className="flex justify-between items-center">
