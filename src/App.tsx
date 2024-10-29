@@ -86,7 +86,7 @@ function App() {
                 placeholder="Enter average word count of each document for review"
               />
               <div className="absolute inset-y-0 right-0 flex items-center pr-3">
-                <span className="text-gray-500 sm:text-sm">words in average doc/question</span>
+                <span className="text-gray-500 sm:text-sm">words per doc / question</span>
               </div>
             </div>
             
